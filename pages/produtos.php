@@ -1,13 +1,9 @@
-<?php
-include("include/_header.html");
-?>
-    
     <section class="container produtos">
         <div class="row">
-            <h1>Serviços</h1>
+            <h1>Produtos</h1>
             <div class="col-md-12 conteudo">
                 <picture>
-                    <img src="./img/servico01.jpg" alt="">
+                    <img src="./img/produto01.jpg" alt="">
                 </picture>
                 <div class="texto">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et perferendis animi possimus sint non incidunt, quisquam rerum deserunt culpa, illo consectetur vitae iure sit, harum dolorum repellat itaque omnis reiciendis?</p>
@@ -17,7 +13,3 @@ include("include/_header.html");
             </div>
         </div>
     </section>
-    
-    <?php
-   include("include/_footer.html");
-    ?>

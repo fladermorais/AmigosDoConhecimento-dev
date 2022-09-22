@@ -1,6 +1,4 @@
-<?php
-include("include/_header.html");
-?>
+
     <section class="container produtos">
         <div class="row">
             <h1>Contato</h1>
@@ -33,7 +31,3 @@ include("include/_header.html");
         </form>
     </div>
 </section>
-
-<?php
-   include("include/_footer.html");
-?>
