@@ -1,30 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style.css">
-    
-    <title>Informática</title>
-</head>
-<body>
-    <header class="container">
-        <nav class="row">
-            <picture class="col-md-4">
-                <a href="index.html"><img src="./img/logo.png" alt=""></a>
-            </picture>
-            
-            <ul class="col-md-8">
-                <li><a href="produtos.html">Produtos</a></li>
-                <li><a href="servicos.html">Serviços</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    
+<?php
+include("include/_header.html");
+?>
     <section class="container home">
         <div class="row">
             <div class="col-md-3">
@@ -103,34 +79,6 @@
         </div>
     </section>
     
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <picture>
-                        <img src="./img/logo.png" alt="">
-                    </picture>
-                </div>
-                
-                <div class="col-md-4">
-                    <h2>Redes</h2>
-                    <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Instagran</a></li>
-                        <li><a href="#">Twitter</a></li>
-                    </ul>
-                </div>
-                
-                <div class="col-md-4">
-                    <h2>Fique por dentro</h2>
-                    <form action="">
-                        <input class="form-control" type="text" placeholder="Nome">
-                        <input class="form-control" type="text" placeholder="Email">
-                        <button class="btn btn-default " type="submit">Cadastrar</button>
-                    </form>
-                </div>
-            </div>
-        </div>  
-    </footer>
-</body>
-</html>
+   <?php
+   include("include/_footer.html");
+    ?>
