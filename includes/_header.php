@@ -14,7 +14,7 @@
     <header class="container">
         <nav class="row">
             <picture class="col-md-4">
-                <a href="index"><img src="./img/logo.png" alt=""></a>
+                <a href="home"><img src="./img/logo.png" alt=""></a>
             </picture>
             
             <ul class="col-md-8">
