@@ -6,3 +6,5 @@ Não será nada muito complexo.
 A idéia inicial é um site simples, onde será possível receber os dados de um formulário de contato e cadastrar alguns artigos, exibindo estes artigos na tela inicial.
 
 Abaixo um esboço de como ficará a pagina inicial do site.
+
+![Modelo](img/modelo.png)
